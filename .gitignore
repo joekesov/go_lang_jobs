@@ -1,0 +1,61 @@
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go build files
+bin/
+pkg/
+
+# Test files
+*_test.go
+
+# Generated files
+*.gen.go
+*.pb.go
+
+# Go package cache
+$GOPATH/pkg/mod/
+$GOPATH/pkg/sumdb/
+$GOPATH/pkg/dep/sources/
+vendor/
+Gopkg.lock
+Gopkg.toml
+
+# GoLand IDE files
+# GoLand IDE files
+.idea/
+
+# Visual Studio Code files
+.vscode/
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.s
+
+# Output of the go coverage tool
+*.cover
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+*~
+.DS_Store
+
+# Docker files
+*.env
+
+# macOS files
+.DS_Store
+._*
+
+# Certificates
+*.pem
+*.crt
+*.key
